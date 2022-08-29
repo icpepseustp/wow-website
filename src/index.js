@@ -8,6 +8,7 @@ import { GetReady } from "./components/GetReady";
 import { KeepCalm } from "./components/KeepCalm";
 import { Registration } from "./components/Registration";
 import { Footer } from "./components/Footer";
+import "./index.css";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
