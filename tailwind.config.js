@@ -12,8 +12,9 @@ module.exports = {
         offwhite: "#E5F7FF",
       },
       fontFamily: {
-        poppins: ['Poppins', 'sans-serif'],
+        poppins: ["Poppins", "sans-serif"],
         libre: ["'Libre Baskerville'", "serif"],
+        code: ["Source Code Pro", "monospace"],
       },
       animation: {
         marquee: "move-to-left 32s linear infinite",
@@ -27,4 +28,4 @@ module.exports = {
     },
   },
   plugins: [],
-}
+};
