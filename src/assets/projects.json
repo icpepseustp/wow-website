@@ -1,0 +1,86 @@
+[
+    {
+        "project-name": "QueueT",
+        "description": "QueueT is a microprocessor-based system that uses names instead of numbers in queues and uses an RFID module for scanning. Using RFID with the integration of Arduino Uno, the researchers created a prototype in which, after the ID is scanned, the data is stored and then, after each person has queued.",
+        "members": "Trisha Jane J. Barranco, Edzel Lloyd B. Geñoso, Deserie Imy C. Quidet, Glycelle June C. Pangca, Ricci Jane C. Abao",
+        "images": [
+            "https://i.ibb.co/jLQBWdd/301344518-1259871654775461-2530549277272309927-n.png",
+            "https://i.ibb.co/vsfy93k/300921179-1327286561137646-1802327393232048522-n.png",
+            "https://i.ibb.co/kQTc1Vs/301515338-605157704348799-2629020349219626014-n.png",
+            "https://i.ibb.co/KrrK5T6/300878904-399499138933512-8307007653319976704-n.png"
+        ],
+        "field": "Hardware"
+    },
+    {
+        "project-name": "Tagay Station",
+        "description": "A point-of-sale (POS) application written in Java programming language that automates the tedious and time-consuming management tasks of a bar business.It features POS, inventory management, sales monitoring and report, and printable customer receipt.",
+        "members": "Kurt O. Timajo",
+        "images": [
+            "https://i.ibb.co/3yM0gGG/Tagay-Station-home.jpg",
+            "https://i.ibb.co/ZxwCPcp/Tagay-Station.jpg", 
+            "https://i.ibb.co/vXC9shY/Tagay-Station-inv.jpg",
+            "https://i.ibb.co/0qS9gNN/Tagay-Station-sales.jpg",
+            "https://i.ibb.co/PzJ8L6r/sales.jpg",
+            "https://i.ibb.co/CmKMrs7/receipt.jpg"
+        ],
+        "field": "Software",
+        "source-code": "https://github.com/djkurt-dev/java-bar-pos.git"
+    },
+    {
+        "project-name": "Attendance Checker",
+        "description": "This program is an 'Attendance Checker' a multi-user program to organize your records, you can easily check and record attendance with it.",
+        "members": "Marvin P. Tagolimot Jr.",
+        "images": [
+            "https://i.ibb.co/N990nG0/1.png",
+            "https://i.ibb.co/SvpPMKF/2.png",
+            "https://i.ibb.co/rd6GjGs/3.png",
+            "https://i.ibb.co/mSCfCrj/4.png",
+            "https://i.ibb.co/nQVhjfg/5.png",
+            "https://i.ibb.co/7VWZX11/6.png",
+            "https://i.ibb.co/9Y2cRZz/7.png"
+        ],
+        "field": "Software",
+        "source-code": "https://github.com/diffident016/Java-OOP_Final-PIT.git"
+    },
+    {
+        "project-name": "EnYOUmerate",
+        "description": "An AI-based software to assist business establishments to monitor the people, providing foot traffic data and various data analysis tools.",
+        "members": "Dave Zachary Macarayo, Jhon Lloyd Cabahug, Anferny Glenn Gulle, Leander Danilo Ramon Perez",
+        "images": [
+            "https://i.ibb.co/9VdrPnf/292773518-574166467727139-3002064661654983055-n.png",
+            "https://i.ibb.co/0JTg5Ls/300608755-2404383093043495-8160595182951542227-n.png",
+            "https://i.ibb.co/ccFVy2k/301218245-827403272006043-1838219908022944516-n.png", 
+            "https://i.ibb.co/pjZVt4X/293745217-1024484288243191-3486317661321347323-n.png",
+            "https://i.ibb.co/R3bCDbp/301035622-755455985743894-6635396245101468480-n.png"
+        ],
+        "field": "Software",
+        "source-code": "https://www.facebook.com/johnlloyd.cabahug"
+    },
+    {
+        "project-name": "TAXI",
+        "description": "A Taxi Ride Hailing App where users have multiple options to book a ride like Advance Booking, Book a Ride for someone and Instant Booking",
+        "members": "Lance Olana, SCiVER IT Solutions",
+        "images": [
+            "https://i.ibb.co/pWpWTW8/1.png",
+            "https://i.ibb.co/cg86pWf/2.png",
+            "https://i.ibb.co/Qb0k29G/3.png",
+            "https://i.ibb.co/0KJHtzX/4.png",
+            "https://i.ibb.co/6X0Msyc/5.png"
+        ],
+        "field": "Software",
+        "source-code": "https://www.facebook.com/lance.olana"
+    },
+    {
+        "project-name": "VIRCOMM (Virtual Community)",
+        "description": "A Platform that focuses on addressing every issue in the community. It includes, Virtual Doctor, Psychiatrist, Dietitian Consultation,Brain Tumor Detection, Breast Cancer Detection, COVID-19 Detection, Guide for Planting different Crops, Fire and Safety Protocols, Specific Workouts for different type of users, and many more.",
+        "members": "Lance Olana, SCiVER IT Solutions",
+        "images": [
+            "https://i.ibb.co/7CLPP36/1.png",
+            "https://i.ibb.co/2KDXgzX/2.png",
+            "https://i.ibb.co/ZXD99Jx/3.png",
+            "https://i.ibb.co/YNsPdHy/4.png"
+        ],
+        "field": "Software",
+        "source-code": "https://www.facebook.com/lance.olana"
+    }    
+]
