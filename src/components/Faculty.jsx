@@ -12,7 +12,7 @@ const Faculty = () => {
     }, []);
 
   return (
-    <main className=''>
+    <main className='overflow-hidden'>
         <div className='flex flex-col items-center font-poppins px-2'>
             <div className='flex flex-col items-center rounded-[45px] drop-shadow-2xl px-2 lg:px-12 py-2 bg-gradient-to-b from-[#E5FFF7] to-[#8EC1F7]'>
             <div data-aos="fade-up"

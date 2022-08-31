@@ -12,18 +12,17 @@ export const Intro = () => {
   }, []);
 
   return(
-    <main className="px-2 my-8 container justify-center max-w-2xl lg:max-w-6xl">
+    <main className="overflow-hidden px-2 my-8 container justify-center max-w-2xl lg:max-w-6xl">
       <section className="flex shrink flex-row items-center justify-center">
         <article className="grid shrink grid-cols-1 gap-2 lg:grid-cols-2">
           <div data-aos="fade-up-right" className="flex justify-center">
-            <img src={LogoPlanet} alt="logo-paper" width={550} />
-          </div>
-          
+            <img className="shrink w-[300px] h-[300px] lg:w-[550px]" src={LogoPlanet} alt="logo-paper"/>
+          </div>  
           <div data-aos="fade-left" className="lg:mt-16 flex shrink flex-col justify-start bg-white rounded-2xl drop-shadow-xl">
             <div className="grid shrink grid-cols-1 lg:gap-2">
               <div className="flex items-center justify-center lg:justify-start">
                 <div className="animate-bounce font-poppins font-extrabold text-sky-500 text-6xl lg:text-8xl drop-shadow-md">|</div>
-                <div className="flex font-league font-bold text-secondary text-4xl lg:text-6xl">
+                <div className="flex font-league font-bold text-secondary text-3xl lg:text-6xl">
                   <h1 className="pt-6 justify-center lg:justify-start">
                     "What is BS CpE?"
                   </h1>
