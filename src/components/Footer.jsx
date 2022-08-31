@@ -17,7 +17,7 @@ export const Footer = () => {
             <div className="flex items-center justify-center my-6">
               <img src={joebot} width={40} alt="joebot" />
               <div className="my-auto ml-2 lg:text-sm font-medium">
-                <a href="https://icpepse-ustp.org" target="_blank">
+                <a href="https://icpepse-ustp.org" rel="no_referer">
                   icpepse-ustp.org <span className="text-md invisible">|</span>
                 </a>
               </div>
@@ -26,20 +26,20 @@ export const Footer = () => {
               <div className="flex gap-x-3 my-auto ml-2">
                 <a
                   href="https://www.facebook.com/icpep.se.ustp"
-                  target="_blank"
+                  rel="no_referer"
                 >
                   <BsFacebook size={25} />
                 </a>
-                <a href="https://twitter.com/ustp_icpepse" target="_blank">
+                <a href="https://twitter.com/ustp_icpepse" rel="no_referer">
                   <BsTwitter size={25} />
                 </a>
                 <a
                   href="https://www.instagram.com/ustp_icpep_se"
-                  target="_blank"
+                  rel="no_referer"
                 >
                   <BsInstagram size={25} />
                 </a>
-                <a href="https://discord.gg/Dc9dJ7hfDD" target="_blank">
+                <a href="https://discord.gg/Dc9dJ7hfDD" rel="no_referer">
                   <BsDiscord size={25} />
                 </a>
               </div>
@@ -48,9 +48,9 @@ export const Footer = () => {
         </div>
 
         <div className="flex gap-y-2 mt-8 lg:text-2xl flex-col justify-center text-center">
-          <h1 className="font-bold ">Week of Welcome exclusive page</h1>
+          <h1 className="font-bold ">Week of Welcome Exclusive Page</h1>
           <p className="lg:text-sm font-base">
-            Prepared by <span className="font-semibold">ICpEP.SE | COMWEB</span>
+            Prepared by: <span className="font-semibold">ICpEP.SE | COMWEB</span>
           </p>
         </div>
       </div>

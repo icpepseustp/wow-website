@@ -1,17 +1,25 @@
-import React from "react";
+import React, { useEffect } from "react";
 // import LogoPaper from "../images/logo-paper.png";
 import LogoPlanet from "../images/logo-planet.png";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 export const Intro = () => {
+
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
+
   return(
-    <main className="my-16 container justify-center max-w-2xl lg:max-w-6xl">
+    <main className="px-2 my-8 container justify-center max-w-2xl lg:max-w-6xl">
       <section className="flex shrink flex-row items-center justify-center">
         <article className="grid shrink grid-cols-1 gap-2 lg:grid-cols-2">
-          <div className="flex justify-center">
+          <div data-aos="fade-up-right" className="flex justify-center">
             <img src={LogoPlanet} alt="logo-paper" width={550} />
           </div>
           
-          <div className="lg:mt-16 flex shrink flex-col justify-start bg-white rounded-2xl drop-shadow-xl">
+          <div data-aos="fade-left" className="lg:mt-16 flex shrink flex-col justify-start bg-white rounded-2xl drop-shadow-xl">
             <div className="grid shrink grid-cols-1 lg:gap-2">
               <div className="flex items-center justify-center lg:justify-start">
                 <div className="animate-bounce font-poppins font-extrabold text-sky-500 text-6xl lg:text-8xl drop-shadow-md">|</div>
@@ -37,3 +45,5 @@ export const Intro = () => {
     </main>
   )
 };
+
+export default Intro

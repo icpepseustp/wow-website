@@ -1,9 +1,19 @@
-import React from "react";
+import React, { useEffect } from "react";
 import logo from "../images/icpepse-logo.png";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 export const GetReady = () => {
+
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
+
+
   return (
-    <div className="flex flex-col items-center p-16 font-poppins bg-white text-secondary">
+    <div data-aos="fade-up"
+    data-aos-anchor-placement="top-center" className="overflow-hidden flex flex-col items-center p-16 font-poppins bg-white text-secondary">
       <div>
         <img src={logo} alt="icpep-logo" width={180} />
       </div>
