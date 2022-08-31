@@ -16,7 +16,7 @@ export const Intro = () => {
       <section className="flex shrink flex-row items-center justify-center">
         <article className="grid shrink grid-cols-1 gap-2 lg:grid-cols-2">
           <div data-aos="fade-up-right" className="flex justify-center">
-            <img className="shrink w-[300px] h-[300px] lg:w-[550px]" src={LogoPlanet} alt="logo-paper"/>
+            <img className="shrink w-[300px] h-[300px] lg:h-[550px] lg:w-[550px]" src={LogoPlanet} alt="logo-paper"/>
           </div>  
           <div data-aos="fade-left" className="lg:mt-16 flex shrink flex-col justify-start bg-white rounded-2xl drop-shadow-xl">
             <div className="grid shrink grid-cols-1 lg:gap-2">
